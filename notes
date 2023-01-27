@@ -17,3 +17,4 @@ git branch < name > = create a branch
 git checkout < name > = go to that branch
 git branch -D < name > = delete that branch
 git checkout -b < name > = shortcut to create a branch
+git checkout < name > = to merge a branch to the selected branch. (go to master first)
