@@ -1,0 +1,14 @@
+master branch = main codebase, the one deployed, the latest stable
+git config --global user.name
+git config --global user.name = set username
+git config user.name = see the set name
+git config user.email = see the set email
+git status = see untracked files
+git add . = stage the files
+git rm --cache < file name > = remove in stage, to untrack it
+git log --oneline = see the commit history, truncated version
+git checkout < id > = to return a commit point and remove all future commits/changes, to delete the files/codes added before that checkout point
+git checkout master = to return to the latest commit 
+git revert < id > = reverse the commit's changes done. For example, you add a new file, then run git revert. It will remove the file created.
+git reset < id > = go to that commit and erase all the future commits, however it wont change the files or modifications, it will bring them back to the unstaged state
+git reset < id > --hard = remove all those unstaged changes, deletes permanently
